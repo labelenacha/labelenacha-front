@@ -1,5 +1,5 @@
 import Header from "./components/Header.jsx";
-import Hero from "./components/Hero.jsx";
+import Landing from "./components/Landing.jsx";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       </div>
 
       <Header/>
-      <Hero/>
+      <Landing/>
 
     </main>
   )

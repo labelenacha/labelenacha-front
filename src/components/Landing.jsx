@@ -1,7 +1,8 @@
 import 'boxicons/css/boxicons.min.css';
 import MainButton from "./MainButton.jsx";
+import Animation from "./Animation.jsx";
 
-const Hero = () => {
+const Landing = () => {
   return (
     <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
 
@@ -32,8 +33,10 @@ const Hero = () => {
         </div>
       </div>
 
+      <Animation />
+
     </main>
   );
 }
 
-export default Hero;
+export default Landing;
