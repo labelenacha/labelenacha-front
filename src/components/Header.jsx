@@ -1,6 +1,6 @@
 import React from "react";
 import 'boxicons/css/boxicons.min.css';
-import MenuEntry from "./MenuEntry.jsx";
+import MenuEntry from "./buttons/MenuEntry.jsx";
 import { STRINGS } from "../constants/strings.js";
 import styles from "../styles/fonts.module.css";
 
@@ -30,7 +30,7 @@ const Header = () => {
 
       {/*mobile*/}
       <button onClick={toggleMenu}
-              className="md:hidden text-3xl p-2 z-50">
+              className="md:hidden text-3xl p-2 z-50 text-gray-800">
         <i className="bx bx-menu"></i>
       </button>
 

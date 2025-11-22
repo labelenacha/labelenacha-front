@@ -1,8 +1,8 @@
 export const STRINGS = {
   TITLE: "la&belenacha$",
-  MENU_1: "Home",
-  MENU_2: "About",
-  MENU_3: "Services",
-  MENU_4: "Contact",
+  MENU_1: "Inicio",
+  MENU_2: "Acerca de mí",
+  MENU_3: "Experiencia",
+  MENU_4: "Contacto",
   BUTTON_TEXT: "Get Started"
 }

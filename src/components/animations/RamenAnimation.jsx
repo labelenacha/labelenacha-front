@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/addons";
 
-const Animation = ({className = "w-full lg:w-1/2 h-[40vh] md:h-[60vh] lg:h-[70vh] z-0", style}) => {
+const RamenAnimation = ({className = "w-full lg:w-1/2 h-[35vh] md:h-[55vh] lg:h-[65vh] z-0", style}) => {
 
   const mountRef = useRef(null);
 
@@ -182,4 +182,4 @@ const Animation = ({className = "w-full lg:w-1/2 h-[40vh] md:h-[60vh] lg:h-[70vh
   return <div ref={mountRef} className={className} style={style}/>;
 }
 
-export default Animation;
+export default RamenAnimation;
