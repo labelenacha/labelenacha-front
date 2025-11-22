@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: 'BalonkuRegular';
+  src: url("../assets/fonts/BalonkuRegular-la1w.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DynaPuff';
+  src: url("../assets/fonts/DynaPuff-VariableFont_wdth,wght.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SendFlowers';
+  src: url("../assets/fonts/SendFlowers-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sprinklescolors';
+  src: url("../assets/fonts/Sprinklescolors-njrJ.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.balonku {
+  font-family: 'Balonku',  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.dynapuff {
+  font-family: 'DynaPuff',  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.sendflowers {
+  font-family: 'SendFlowers',  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.sprinklescolors {
+  font-family: 'Sprinklescolors',  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

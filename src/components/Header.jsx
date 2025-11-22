@@ -2,7 +2,7 @@ import React from "react";
 import 'boxicons/css/boxicons.min.css';
 import MenuEntry from "./MenuEntry.jsx";
 import { STRINGS } from "../constants/strings.js";
-import styles from '../styles/Header.module.css';
+import styles from "../styles/fonts.module.css";
 
 const Header = () => {
 
@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between items-center py-8 px-4 lg:px-20">
-      <h1 className={`text-3xl md:text-4xl lg:text-5xl text-gray-800 m-0 ${styles.title}`}>
+      <h1 className={`text-3xl md:text-4xl lg:text-5xl text-gray-800 m-0 ${styles.sprinklescolors}`}>
         {STRINGS.TITLE}
       </h1>
 
