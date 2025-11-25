@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
       </div>
       <div className=" flex flex-col items-center justify-between">
-        <Animation fileName='/models/oia/scene.gltf'
+        <Animation fileName='./models/oia/scene.gltf'
                    desiredSize={4}
                    rotateX={0.1}
                    rotateY={0.25}

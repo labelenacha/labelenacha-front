@@ -9,7 +9,7 @@ const Aboutme = () => {
       <CategoryTitle titleText={STRINGS.MENU_2}/>
       <div className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
 
-        <Animation fileName='/models/smoller_gura/scene.gltf'
+        <Animation fileName='./models/smoller_gura/scene.gltf'
                    desiredSize={2}
                    rotateX={0.2}
                    rotateY={0.5}

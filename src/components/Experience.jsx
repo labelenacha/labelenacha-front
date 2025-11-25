@@ -29,7 +29,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <Animation fileName='/models/smol_ame/scene.gltf'
+        <Animation fileName='./models/smol_ame/scene.gltf'
                    desiredSize={2.4}
                    rotateX={0.33}
                    rotateY={-0.2}

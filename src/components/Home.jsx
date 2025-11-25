@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Animation fileName='/models/pusheen_cat_ramen/scene.gltf'
+        <Animation fileName='./models/pusheen_cat_ramen/scene.gltf'
                    desiredSize={4.5}
                    rotateX={0.4}
                    rotateY={-0.65}
