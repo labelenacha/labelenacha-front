@@ -1,5 +1,5 @@
 import { STRINGS } from "../constants/strings.js";
-import RamenAnimation from "./animations/RamenAnimation.jsx";
+import Animation from "./animations/Animation.jsx";
 import CategoryTitle from "./texts/CategoryTitle.jsx";
 
 const Experience = () => {
@@ -29,7 +29,12 @@ const Experience = () => {
           </div>
         </div>
 
-        <RamenAnimation/>
+        <Animation fileName='/models/smol_ame/scene.gltf'
+                   desiredSize={2.4}
+                   rotateX={0.33}
+                   rotateY={-0.2}
+                   posX={1.7}
+                   posY={0.25}/>
 
       </div>
     </main>

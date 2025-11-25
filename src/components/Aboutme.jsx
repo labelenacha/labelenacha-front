@@ -1,5 +1,5 @@
 import 'boxicons/css/boxicons.min.css';
-import RamenAnimation from "./animations/RamenAnimation.jsx";
+import Animation from "./animations/Animation.jsx";
 import { STRINGS } from "../constants/strings.js";
 import CategoryTitle from "./texts/CategoryTitle.jsx";
 
@@ -9,7 +9,12 @@ const Aboutme = () => {
       <CategoryTitle titleText={STRINGS.MENU_2}/>
       <div className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
 
-        <RamenAnimation/>
+        <Animation fileName='/models/smoller_gura/scene.gltf'
+                   desiredSize={2}
+                   rotateX={0.2}
+                   rotateY={0.5}
+                   posX={1.2}
+                   posY={0}/>
 
         <div className="max-w-3xl ml-[5%] mr-[5%] z-10 lg:mt-0">
           <div className="bg-gray-50 p-4 border-2 border-gray-800 rounded-xl">

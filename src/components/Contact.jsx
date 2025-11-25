@@ -1,5 +1,5 @@
 import { STRINGS } from "../constants/strings.js";
-import RamenAnimation from "./animations/RamenAnimation.jsx";
+import Animation from "./animations/Animation.jsx";
 import CategoryTitle from "./texts/CategoryTitle.jsx";
 
 const Contact = () => {
@@ -30,7 +30,12 @@ const Contact = () => {
         </div>
       </div>
       <div className=" flex flex-col items-center justify-between">
-        <RamenAnimation/>
+        <Animation fileName='/models/oia/scene.gltf'
+                   desiredSize={4}
+                   rotateX={0.1}
+                   rotateY={0.25}
+                   posX={0.2}
+                   posY={0.2}/>
       </div>
     </main>
   );

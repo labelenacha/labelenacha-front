@@ -1,6 +1,6 @@
 import 'boxicons/css/boxicons.min.css';
 import MainButton from "./buttons/MainButton.jsx";
-import RamenAnimation from "./animations/RamenAnimation.jsx";
+import Animation from "./animations/Animation.jsx";
 import { STRINGS } from "../constants/strings.js";
 import CategoryTitle from "./texts/CategoryTitle.jsx";
 
@@ -33,7 +33,12 @@ const Home = () => {
           </div>
         </div>
 
-        <RamenAnimation/>
+        <Animation fileName='/models/pusheen_cat_ramen/scene.gltf'
+                   desiredSize={4.5}
+                   rotateX={0.4}
+                   rotateY={-0.65}
+                   posX={1}
+                   posY={-1}/>
 
       </div>
     </main>
