@@ -28,11 +28,11 @@ const Aboutme = () => {
               <CategoryTitle titleText={STRINGS.CATEGORY_2_TITLE}/>
 
               <p className="text-base sm:text-lg tracking-wider text-gray-700 max-w-[50rem] lg:max-w-[60rem]">
-                Tengo 29 años y soy Chilena. Estudie Ingeniería Civil en Informática en la UdeC y actualmente me
+                Tengo 29 años y soy chilena. Estudie Ingeniería Civil en Informática en la UdeC y actualmente me
                 desempeño como desarrolladora a tiempo completo.
                 <br/>
                 Siempre busco mantenerme al tanto sobre nuevas tecnologías y emprender nuevos desafíos que me permitan
-                desarrollame profesionalmente. En mi tiempo libre disfruto de jugar videojuegos, pasear en parques y
+                desarrollarme profesionalmente. En mi tiempo libre disfruto de jugar videojuegos, pasear en parques y
                 pasar tiempo con mi familia.
               </p>
 

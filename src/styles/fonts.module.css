@@ -1,28 +1,28 @@
 
 @font-face {
   font-family: 'BalonkuRegular';
-  src: url("../assets/fonts/BalonkuRegular-la1w.otf") format("opentype");
+  src: url("/fonts/BalonkuRegular-la1w.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'DynaPuff';
-  src: url("../assets/fonts/DynaPuff-VariableFont_wdth,wght.ttf") format("opentype");
+  src: url("/fonts/DynaPuff-VariableFont_wdth,wght.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'SendFlowers';
-  src: url("../assets/fonts/SendFlowers-Regular.ttf") format("opentype");
+  src: url("/fonts/SendFlowers-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Sprinklescolors';
-  src: url("../assets/fonts/Sprinklescolors-njrJ.ttf") format("opentype");
+  src: url("/fonts/Sprinklescolors-njrJ.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
