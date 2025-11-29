@@ -20,7 +20,7 @@ const Experience = () => {
               <p className="text-base sm:text-lg tracking-wider text-gray-700 max-w-[50rem] lg:max-w-[60rem]">
                 Desarrollo principalmente en SpringBoot (Java) y React (JavaScript); aun así, sé manejarme bien en
                 frameworks como Laravel (PHP) y Django (Python); conozco cómo utilizar bases de datos SQL (PostgreSQL,
-                SQLServer, MySQL) y NoSQL (MongoDB). Se utilizar Docker e integrar con pipelines de despliegue continuo.
+                SQLServer, MySQL) y NoSQL (MongoDB). Se utilizar Docker e integrar con pipelines de despliegue contínuo.
                 Tengo experiencia trabajando en Scrum y Kanban.
                 <br/>
                 <br/>
