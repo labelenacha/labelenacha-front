@@ -9,7 +9,6 @@ import Contact from "./components/Contact.jsx";
 export default function App() {
   return (
     <main className={`min-h-screen bg-[#F5D3C4] ${styles.dynapuff}`}>
-
       <Header/>
       <Home/>
       <Aboutme/>

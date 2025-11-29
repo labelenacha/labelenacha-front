@@ -1,9 +1,8 @@
-import styles from "../../styles/fonts.module.css";
-
-const CategoryTitle = ({ titleText }) => {
+const CategoryTitle = ({titleText}) => {
   return (
-    <div className={`mt-20 ml-[5%] text-7xl mb-2 sm:mb-10 underline text-gray-800 ${styles.sendflowers}`}>
-      <h1>
+    <div>
+      <h1
+        className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold tracking-wider my-8 text-gray-800">
         {titleText}
       </h1>
     </div>
