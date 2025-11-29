@@ -20,9 +20,11 @@ const Header = () => {
     <header className="sticky top-0 left-0 right-0 z-50 bg-[#F5D3C4] backdrop-blur-sm border-b-2 border-gray-800">
       <div className="relative flex justify-between items-center py-6 px-4 lg:px-20">
 
-        <h1 className={`text-3xl md:text-4xl lg:text-5xl text-gray-800 m-0 ${styles.sprinklescolors}`}>
-          {STRINGS.TITLE}
-        </h1>
+        <a href='#' className="flex items-center gap-3">
+          <h1 className={`text-3xl md:text-4xl lg:text-5xl text-gray-800 m-0 ${styles.sprinklescolors}`}>
+            {STRINGS.TITLE}
+          </h1>
+        </a>
 
         <nav className="hidden md:flex items-center gap-12">
           <MenuEntry link="#home" text={STRINGS.MENU_1}/>
