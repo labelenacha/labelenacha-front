@@ -22,10 +22,10 @@ const Header = () => {
       </h1>
 
       <nav className="hidden md:flex items-center gap-12">
-        <MenuEntry link="#" text={STRINGS.MENU_1}/>
-        <MenuEntry link="#" text={STRINGS.MENU_2}/>
-        <MenuEntry link="#" text={STRINGS.MENU_3}/>
-        <MenuEntry link="#" text={STRINGS.MENU_4}/>
+        <MenuEntry link="#home" text={STRINGS.MENU_1}/>
+        <MenuEntry link="#aboutme" text={STRINGS.MENU_2}/>
+        <MenuEntry link="#experience" text={STRINGS.MENU_3}/>
+        <MenuEntry link="#contact" text={STRINGS.MENU_4}/>
       </nav>
 
       {/*mobile*/}
@@ -39,10 +39,10 @@ const Header = () => {
             md:hidden z-40 border-2 rounded-xl border-gray-800
              bg-gray-50 backdrop-blur- md left-auto w-max">
         <nav className="flex flex-col gap-6 items-start">
-          <MenuEntry link="#" text={STRINGS.MENU_1}/>
-          <MenuEntry link="#" text={STRINGS.MENU_2}/>
-          <MenuEntry link="#" text={STRINGS.MENU_3}/>
-          <MenuEntry link="#" text={STRINGS.MENU_4}/>
+          <MenuEntry link="#home" text={STRINGS.MENU_1}/>
+          <MenuEntry link="#aboutme" text={STRINGS.MENU_2}/>
+          <MenuEntry link="#experience" text={STRINGS.MENU_3}/>
+          <MenuEntry link="#contact" text={STRINGS.MENU_4}/>
         </nav>
       </div>
 

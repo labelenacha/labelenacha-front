@@ -5,7 +5,7 @@ import CategoryTitle from "./texts/CategoryTitle.jsx";
 
 const Aboutme = () => {
   return (
-    <main className="flex flex-col">
+    <main id="aboutme" className="flex flex-col">
       <CategoryTitle titleText={STRINGS.MENU_2}/>
       <div className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
 
@@ -17,7 +17,10 @@ const Aboutme = () => {
                    posY={0}/>
 
         <div className="max-w-3xl ml-[5%] mr-[5%] z-10 lg:mt-0">
-          <div className="bg-gray-50 p-4 border-2 border-gray-800 rounded-xl">
+          <div data-aos="fade-zoom-in"
+               data-aos-easing="ease-in-back"
+               data-aos-delay="100"
+               data-aos-offset="0" className="bg-gray-50 p-4 border-2 border-gray-800 rounded-xl">
 
             <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold tracking-wider my-8 text-gray-800">
               Aquí explico quien soy

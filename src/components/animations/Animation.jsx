@@ -69,7 +69,6 @@ const Animation = ({className = "w-full lg:w-1/2 h-[35vh] md:h-[55vh] lg:h-[65vh
         scene.add(model);
 
         if (gltf.animations && gltf.animations.length > 0) {
-          console.log(gltf.animations);
           mixer = new THREE.AnimationMixer(model);
           const clip = gltf.animations[0];
           activeAction = mixer.clipAction(clip);
